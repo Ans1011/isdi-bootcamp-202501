@@ -41,8 +41,7 @@ User:
 
 - App
 - API
-- COM
-- DOC
+- Database
 
 ### Packages
 

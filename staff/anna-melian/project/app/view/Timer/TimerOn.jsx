@@ -385,7 +385,7 @@ export function TimerOn({ onReturnAccepted, onGiveUpClick, onFinishClick, onAddE
                 </div>
             )}
 
-            {status === 'active' && <div className="sand-clock scale-100 mt-4" />}
+            {(status === 'active' || status === 'created') && <div className="sand-clock scale-100 mt-4" />}
 
             {status === 'setExtraTime' && (
                 <div className="flex flex-col items-center justify-center w-[400px] h-[550px] bg-yellow-50 rounded-2xl shadow-xl p-6 space-y-8 text-center border-4 border-fuchsia-900">
